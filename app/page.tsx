@@ -45,17 +45,22 @@ export default async function Home() {
               })}
             </ul>
             {/* note */}
+            <div className="block mt-20 underline decoration-1 text-text-gray leading-tight underline-offset-4">
+              ......
+            </div>
           </aside>
 
           {/* article */}
           <section className="flex-auto w-2/3 pt-16">
             <h2 className="w-full text-sm font-medium leading-5 text-gray-500 mb-5">article</h2>
-
             <ul className="select-none">
               {articlePosts.map((post: any, idx) => {
                 return <Article key={idx} {...post} />;
               })}
             </ul>
+            <div className="block mt-10 underline decoration-1 text-text-gray leading-tight underline-offset-4">
+              ...
+            </div>
           </section>
           {/* article */}
         </div>

@@ -215,3 +215,10 @@ h1 a {
   text-decoration: none;
   color: black;
 }
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 192px 640px 192px;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
